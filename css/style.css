@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Foldit:wght@500&family=Great+Vibes&family=Luxurious+Script&family=Pacifico&family=Pathway+Gothic+One&family=Rajdhani&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.container {
+    height: auto;
+    width: auto;
+}
+
+.navbar {
+    height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.navcontent {
+    font-size: 1.2rem;
+    width: 55%;
+}
+
+.navcontent ul {
+    list-style: none;
+
+}
+
+.navcontent ul li {
+    font-weight: bolder;
+    width: 4rem;
+    cursor: pointer;
+
+}
+
+.navcontent ul :hover {
+    text-decoration-line: underline;
+    color: red;
+}
+
+.changemode .btn {
+    border-radius: 100%;
+    border: none;
+    height: 1rem;
+    width: 1rem;
+    margin-right: .2rem;
+}
+
+.changemode .btn2 {
+    border-radius: 100%;
+    border: none;
+    height: 1rem;
+    width: 1rem;
+
+}
+
+.landingsection {
+    height: auto;
+    display: block;
+    padding-top: 4rem;
+    position: relative;
+
+}
+
+l .heading {
+    position: absolute;
+    height: 20rem;
+    width: 40rem;
+    background: transparent;
+    top: 7rem;
+    left: 5rem;
+}
+
+.heading h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 90px;
+    padding-left: 2rem;
+}
+
+.heading .endline {
+    margin-left: 10rem;
+    left: 4rem;
+    top: 7rem;
+}
+
+.shcortcontent {
+    float: left 5rem;
+    border: 2px solid;
+    height: auto;
+}
+
+.shortcontent h2 {
+    display: block;
+    height: 4rem;
+    width: 35rem;
+    top: 21rem;
+    float: left;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    color: rgb(195, 52, 99);
+}
+
+.bg {
+    height: 26rem;
+    justify-content: end;
+    width: 100%;
+    width: 25rem;
+    margin-left: 53.95rem;
+    background-color: rgb(0, 169, 173);
+}
+
+.img img {
+    margin: 1px -2px;
+    border: 3px solid white;
+    position: absolute;
+    width: 30rem;
+    height: 32rem;
+    right: 4rem;
+    top: 4rem;
+}
+
+.design3 {
+    border: 4px dotted white;
+    position: absolute;
+    height: 4.9rem;
+    width: 6rem;
+    right: 2.91rem;
+    top: 32.14rem;
+
+}
+
+.design4 {
+    background-color: rgb(0, 169, 173);
+    position: absolute;
+    height: 4rem;
+    width: 5rem;
+    right: 3.7rem;
+    top: 32.3rem;
+
+}
+
+.design {
+    border: 4px dotted white;
+    background-color: rgb(0, 169, 173);
+    position: absolute;
+    height: 4rem;
+    width: 5rem;
+    right: 3.4rem;
+    top: 32.6rem;
+
+}
+
+.design1 {
+    background-color: rgb(0, 169, 173);
+    position: absolute;
+    height: 4rem;
+    width: 5rem;
+    right: 3.7rem;
+    top: 32.3rem;
+
+}
+
+
+
+.shortabout {
+    padding: .5rem 2rem;
+    color: white;
+    position: absolute;
+    height: 12rem;
+    width: 25rem;
+    right: 18rem;
+    top: 26.5rem;
+    background-color: rgb(122, 92, 151);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+.shortabout .symbl {
+    font-size: 2rem;
+    align-items: start;
+}
+
+.shortabout footer {
+    position: absolute;
+    right: .8rem;
+    top: 10.7rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.project {
+    display: block;
+    height: auto;
+    width: 100%;
+    align-items: end;
+    font-size: 1rem;
+}
+
+.project h1 {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .9s ease-in-out, box-shadow .3s ease-in-out;
+    font-family: 'Foldit', cursive;
+    height: auto;
+    font-size: 7rem;
+
+}
+
+.project h1:hover {
+    box-shadow: inset 1500px 0 0 0 #6d22e6;
+}
+
+.project1,
+.project2 {
+    margin-top: 2rem;
+    /* border: 2px solid; */
+    height: auto;
+    width: 100%;
+
+}
+
+.project1,
+.project2 .a1 {
+    height: 15rem;
+    width: 50%;
+    border-radius: 5px;
+
+    background: rgb(71, 237, 176);
+}
+
+
+.indiv {
+    padding: 3rem;
+
+
+    font-size: 40px;
+}
+
+.openproject {
+    color: white;
+    height: 3rem;
+    font-size: 30px;
+
+    border: 2px solid;
+    border-radius: 3rem;
+    background-color: rgb(203, 86, 223);
+    width: 80%;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+}

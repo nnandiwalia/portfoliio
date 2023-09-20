@@ -1,0 +1,64 @@
+.df {
+    display: flex;
+}
+
+.m2 {
+    margin-left: 2rem;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jce {
+    justify-content: end;
+}
+
+.jcs {
+    justify-content: start;
+}
+
+.aic {
+    align-items: center;
+}
+
+.w20 {
+    width: 15%;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.inlb {
+    display: inline-block;
+}
+
+.cr {
+    color: red;
+
+}
+
+.bcw {
+
+    background-color: white;
+
+}
+
+.ml2 {
+    margin-left: 2rem;
+}
+
+.mr2 {
+    margin-right: 2rem;
+
+
+}
+
+.fr {
+    float: right;
+}

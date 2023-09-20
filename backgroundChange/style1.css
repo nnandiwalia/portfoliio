@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    border: none;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(50%, 50%);
+    box-shadow: 0 0 0 aqua;
+    border-radius: 1000px;
+    transition: 0.9s;
+}
+
+.first:focus {
+    box-shadow: 0 0 0 1000px aqua;
+    z-index: -10;
+}
+
+.second {
+    border: none;
+    transition: 0.9s;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+}
+
+.second:focus {
+    box-shadow: 0 0 0 1000px blue;
+    z-index: -10;
+}
+
+
+.third {
+    border: none;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+    transition: 0.9s;
+}
+
+.third:focus {
+    box-shadow: 0 0 0 1000px red;
+    z-index: -10;
+}
+
+.fourth {
+    border: none;
+    background-color: rgb(0, 255, 0);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+    transition: 0.9s;
+}
+
+.fourth:focus {
+    box-shadow: 0 0 0 1000px rgb(0, 255, 0);
+    z-index: -10;
+}
+
+button {
+    outline: none;
+}
